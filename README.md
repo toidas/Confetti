@@ -6,7 +6,7 @@ https://cloud.google.com/functions/docs/tutorials/ocr#functions_ocr_configure-py
 # Install project
 npm install
 # Run project 
-npm start
+npm start </br>
 localhost:3000
 
 
