@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form name='get_image' action='/get_text_from_image' method='get'>
+      <input type='submit' value='Submit' />
+    </form>
+    <!--<% if (typeof data !== "undefined") { %> 
+    <script type="text/javascript"> 
+        var someHTML = "<%=data %>"
+        someHTML = someHTML.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        document.getElementById("demo").innerHTML = "<h1>AAAAAAAAAAA</h1>";
+    </script>
+    <% } %>-->
+  </body>
+</html>
